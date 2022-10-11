@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+}
+.sidebar{
+	background-color: grey;
+	height: 100vh;
+	width: 15vw;
+
+}
+.sidebar nav{
+	padding: 20px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: cursive;
+}
+.sidebar nav li{
+	list-style: none;
+	font-size: 25px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.sidebar nav li a{
+	text-decoration: none;
+	color: black;
+}
+.main{
+	/*background-color: skyblue;*/
+	width: 100%;
+}
+.infocontainer{
+	/*background-color: lightpink;*/
+	height: 70vh;
+	width: 70vw;
+	margin: 80px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.devpic img{
+	width: 500px;
+	height: 100%;
+}
+.devinfo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hello{
+font-size: 40px;
+font-family: sans-serif;
+}
+.name{
+font-size: 50px;
+font-family: cursive;
+font-weight: bolder;
+}
+.about{
+font-size: 30px;
+font-family: monospace;
+}
+.buttons button{
+	color: white;
+	border-radius: 12px;
+	padding: 6px 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-top: 10px;
+	background-color: black;
+	cursor: pointer;
+}
+.buttons button:hover{
+background-color: white;
+color: black;
+}

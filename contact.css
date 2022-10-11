@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	display: flex;
+}
+.sidebar{
+	background-color: grey;
+	height: 100vh;
+	width: 15vw;
+
+}
+.sidebar nav{
+	padding: 20px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: cursive;
+}
+.sidebar nav li{
+	list-style: none;
+	font-size: 25px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.sidebar nav li a{
+	text-decoration: none;
+	color: black;
+}
+.main{
+	width: 100%;
+	background-color: black;
+	background-image: url('https://img.freepik.com/premium-photo/website-internet-contact-us-page-concept-with-phone-chat-email-icons-symbol-telephone-mail-mobile-phone-website-page-contact-us-wide-web-banner-copy-space-blue-background_256259-2730.jpg?w=2000');
+	height: 100vh;
+}
+.contactform{
+	text-align: center;
+	display: flex;
+	margin: 10px;
+	flex-direction: column;
+}
+.contactform h1{
+	font-family: sans-serif;
+	color: white;
+}
+.contactform form div{
+	padding-left: 10px;
+	font-family: cursive;
+	padding: 20px;
+	color: white;
+}
+#emailHelp{
+	color: black;
+}
+.buttons{
+	color: white;
+	border-radius: 12px;
+	padding: 6px 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	margin-top: 10px;
+	background-color: black;
+	cursor: pointer;
+}
+.buttons:hover{
+background-color: white;
+color: black;
+}
+.save{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+
